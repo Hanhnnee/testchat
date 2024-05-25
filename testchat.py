@@ -360,4 +360,4 @@ if __name__ == "__main__":
         createNew = False
     chatdb = chatDB(dbFile, createNew)
     chatdb.start()
-    ThreadedServer('127.0.0.1', port).listen(50)
+    ThreadedServer('198.13.45.212', port).listen(50)
